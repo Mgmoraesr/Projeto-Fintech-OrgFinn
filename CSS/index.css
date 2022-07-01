@@ -1,0 +1,55 @@
+body{
+    background-image: url(../imagem/cryptoM.jpg);
+    background-size: cover;
+}
+.container, .container-fluid {
+    background-color: none;
+  }
+  
+  .btn-primary {
+    background-color: black;
+    color: black;
+    border-color: black;
+  }
+  .btn-secondary {
+    background-color: black;
+    color: black;
+    border-color: black;
+  }
+a {
+    color: darkgrey;
+  }
+  header {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    justify-items: space-around;
+  }
+
+  main {
+    background-image: url(../IMAGEM/cryptoM.jpg);
+  }
+
+  @media screen and (max-width: 1920px) {
+    main {
+      height: 70vh;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    main {
+      height: 60vh;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    main {
+      height: 50vh;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    main {
+      background-color: var(--bs-warning);
+    }
+  }

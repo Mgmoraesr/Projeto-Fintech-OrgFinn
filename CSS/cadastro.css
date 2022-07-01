@@ -1,0 +1,41 @@
+body{
+    background-image: url(../IMAGEM/cryptoM.jpg);
+  }
+  .container, .container-fluid {
+    background-color: none;
+  }
+  form {
+    color: black;
+  }
+  
+  .container {
+    color: black;
+    padding: 5em;
+  }
+  main {
+    background-image: url(../IMAGEM/cryptoM.jpg);
+  }
+  
+  @media screen and (max-width: 1920px) {
+    main {
+      height: 70vh;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    main {
+      height: 60vh;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    main {
+      height: 50vh;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    main {
+      background-color: var(--bs-warning);
+    }
+  }
